@@ -171,7 +171,7 @@ def xxr():
     os.system("clear")
     print(logo)
     print(f' [{xr}^{x}] Example>: {xr}019,017,018,92302,92301,91778{x}')
-    print("Shanto
+    print("019")
     rk1 = '0171'
     rk2 = '0172'
     rk3 = '0175'
